@@ -1,0 +1,421 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  } 
+
+body * {
+    font-family: helvetica;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 20px 0px;
+}
+
+.arrow {
+    width: 280px;
+    height: 70px;
+}
+
+.my-pic {
+    width: 140px;
+    border-radius: 6px;
+}
+
+.nav-bar {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: space-around;
+    padding: 25px 40px;
+    background-color: #4ba8efa4;
+}
+
+a {
+    color: #000507;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: #f1f3f5;
+    border-radius: 2px;
+}
+
+.obj {
+    background-color: #f1f3f5;
+    padding: 10px 0;
+    border-bottom: #b68b27;
+    border-bottom-style: double;
+}
+
+.heading {
+padding: 0 60px;
+}
+
+.details {
+max-width: 1650px;
+padding: 0 190px;
+text-align: justify;
+}
+
+.experience {
+    background-color: #f1f3f5;
+    padding-top: 15px;
+    border-bottom: #b68b27;
+    border-bottom-style: double;
+}
+
+.R1, .R2, .R3, .R4 {
+    max-width: 750px;
+    /* width: 85%; */
+    text-align: justify;
+    margin-right: 40px;
+}
+
+.exp1 {
+    display: flex;
+    align-items: initial;
+    justify-content: space-around;
+    padding: 10px 60px 30px 110px;
+
+}
+
+.exp3 {
+    display: flex;
+    align-items: initial;
+    justify-content: space-around;
+    padding: 10px 60px 30px 110px;
+
+}
+
+.skills {
+    padding: 15px 60px 25px;
+    background-color: #f1f3f5;
+    border-bottom: #b68b27;
+    border-bottom-style: double;
+}
+
+    .meters {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    meter {
+        width: 180px;
+        height: 15px;
+        margin-left: 10px;
+    }
+
+    .tooltip-text11 {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        color:#180100;
+        font-size: 14px;
+        padding: 10px 15px 10px 15px;
+      }
+      
+      .m1:hover .tooltip-text11 {
+        visibility: visible;
+      }
+    
+      .tooltip-text12 {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        color:#180100;
+        font-size: 14px;
+        padding: 10px 15px 10px 15px;
+      }
+      
+      .m2:hover .tooltip-text12 {
+        visibility: visible;
+      }
+
+      .tooltip-text13 {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        color:#180100;
+        font-size: 14px;
+        padding: 10px 15px 10px 15px;
+      }
+      
+      .m3:hover .tooltip-text13 {
+        visibility: visible;
+      }
+    
+      .tooltip-text14 {
+        visibility: hidden;
+        position: absolute;
+        z-index: 1;
+        color:#180100;
+        font-size: 14px;
+        padding: 10px 15px 10px 15px;
+      }
+      
+      .m4:hover .tooltip-text14 {
+        visibility: visible;
+      }
+
+.education {
+    background-color: #f1f3f5;
+    padding: 10px 60px 30px;
+    border-bottom: #b68b27;
+    border-bottom-style: double;
+}
+
+.edu {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tooltip-text1 {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 90px;
+    color:#180100;
+    font-size: 12px;
+    background-color: #f7d698a1;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  .edu1:hover .tooltip-text1 {
+    visibility: visible;
+  }
+
+  .tooltip-text2 {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 125px;
+    color:#180100;
+    font-size: 12px;
+    background-color: #f7d698a1;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  .edu2:hover .tooltip-text2 {
+    visibility: visible;
+  }
+
+.lets-talk{
+    display: flex;
+    background-color: #04512b;
+    padding: 25px 60px 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;    
+}
+
+footer a:hover {
+    text-decoration: none;
+    background-color: #e8d6ab;
+    color: #180100;
+    border-radius: 2px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    color: #180100;
+    padding: 15px;
+}
+
+
+
+/* Code for Responsive Website Display */
+
+
+@media screen and (max-width:800px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-right: 16px;
+        padding-left: 10px;
+    }
+
+    .head {
+       font-size: 20px; 
+    }
+
+    .my-pic {
+        max-width: 75%;
+    }
+
+    .arrow {
+        width: 160px;
+        height: 50px;
+    }
+
+    .nav-bar {
+        font-size: 14px;
+    }
+
+    h2, .heading {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .details, .xp {
+        font-size: 12px;
+    }
+
+    .m1, .m2, .m3, .m4 {
+        font-size: 14px;
+    }
+
+    .obj, .experience {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .meters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .edu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 14px;
+    }
+
+    .lets-talk {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .head {
+       font-size: 15px;
+       padding-left: 15px; 
+    }
+
+    .my-pic {
+        max-width: 50%;
+    }
+
+    .arrow {
+        width: 80px;
+        height: 30px;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+
+    .obj {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .details {
+        padding: 0px 60px 20px;
+    }
+
+    .exp1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 0px 60px;
+    }
+
+    .exp3 {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px 20px 60px;
+    }
+
+    h2, .heading {
+        font-size: 13px;
+    }
+
+    h4 {
+        font-size: 11px;
+    }
+
+    .details, .xp {
+        font-size: 10px;
+    }
+
+    .m1, .m2, .m3, .m4 {
+        font-size: 11px;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    meter {
+        display: flex;
+        align-content: stretch;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edu {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+
+    .lets-talk {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 12px;
+    }
+
+    .copyright {
+        text-align: center;
+        font-size: 8px;
+        color: #180100;
+        padding: 15px;
+    }
+}
